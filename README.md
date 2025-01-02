@@ -41,7 +41,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## 👤 Author  
 Developed by **Rahgul Krishna C**  
 - **GitHub**: [Rahgul Krishna](https://github.com/RahgulKrishna)  
-- **LinkedIn**: [Your LinkedIn Profile](#) *(Add your LinkedIn URL)*  
+- **LinkedIn**: [Rahgul Krishna C](https://www.linkedin.com/in/rahgulkrishna?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ## 🙏 Acknowledgments  
 - **OpenWeatherMap**: For providing reliable weather data.  
