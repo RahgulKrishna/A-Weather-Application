@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(179.2deg, rgb(34, 34, 34) 0%, rgb(8, 0, 153) 29.7%, rgb(118, 6, 166) 63.4%, rgba(233, 0, 64, 0.58) 100.1%);
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background: rgba(213, 222, 245, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #8594e4;
+  transition: transform 0.3s, color 0.3s; /* Smooth transition for pop effect */
+}
+
+h1:hover {
+  transform: scale(1.1); /* Scale up the title for pop effect */
+  color: #b3c0ff; /* Optional color change on hover */
+}
+
+.time {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the search elements */
+}
+
+#city-input {
+  padding: 10px;
+  width: 70%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+  transition: border-color 0.3s;
+}
+
+#city-input:focus {
+  border-color: #6643b5;
+}
+
+#search-button {
+  padding: 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #8594e4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px; /* Space between input and button */
+}
+
+#search-button:hover {
+  background-color: #6643b5;
+}
+
+/* Clear History Button Styles */
+#clear-history-button {
+  background-color: #ff4d4d; /* Red background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 15px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s; /* Transition effects */
+  font-size: 16px; /* Font size */
+  margin-left: 10px; /* Space between buttons */
+}
+
+#clear-history-button:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+#clear-history-button:focus {
+  outline: none; /* Remove outline */
+}
+
+.weather-info {
+  font-size: 1.2em;
+  background: rgba(101, 67, 181, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s;
+}
+
+.weather-info:hover {
+  transform: scale(1.05);
+}
+
+.weather-info h2 {
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #d5def5;
+}
+
+.weather-info img {
+  width: 100px;
+  margin: 10px 0;
+}
+
+.weather-info p {
+  margin: 5px 0;
+  color: #fff;
+}
+
+/* Recent Searches */
+.recent-searches {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recent-search-item {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8594e4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.recent-search-item:hover {
+  background-color: #6643b5;
+}
+
+/* Footer styling */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #ccc;
+}
+
+.footer p {
+  margin-bottom: 5px; /* Reduced gap between lines */
+  transition: transform 0.3s; /* Smooth transition for expand effect */
+}
+
+/* Specific color styles for footer text */
+.footer p:first-of-type { /* Targets the first paragraph (Developed by) */
+  color: black; /* Set color to black */
+}
+
+.footer p:last-of-type { /* Targets the second paragraph (Rahgul Krishna C) */
+  color: white; /* Set color to white */
+}
+
+.footer p:hover {
+  transform: scale(1.05); /* Expand effect on hover */
+}
+
+/* Center "Developed by" and "Rahgul Krishna C" */
+.footer p:first-child {
+  font-size: 1em; /* Adjust font size if needed */
+}
+
+.footer p:last-child {
+  font-size: 1.2em; /* Slightly larger font for name */
+}
+
+/* Social Icons */
+.social-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
