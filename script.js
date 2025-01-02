@@ -9,7 +9,7 @@ setInterval(updateTime, 1000); // Update time every second
 
 // Function to fetch weather data
 async function getWeather(city) {
-  const apiKey = '3c4f62ae3ce68f73c82ebd0c3f1e54c9'; // Replace with your actual API key
+  const apiKey = 'YOUR_API_KEY'; // Replace with your actual API key
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
   try {
